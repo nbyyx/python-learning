@@ -1,0 +1,48 @@
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+*.swp
+
+# ===== Python 编译缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== 虚拟环境 =====
+venv/
+env/
+.venv/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.iml
+
+# ===== 包管理 =====
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ===== 敏感信息 =====
+.env
+.secrets
+config.local.ini
+*.pem
+*.key
+
+# ===== 日志和数据 =====
+*.log
+*.db
+*.sqlite3
+data/
+uploads/
+*.csv
+*.xlsx
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
